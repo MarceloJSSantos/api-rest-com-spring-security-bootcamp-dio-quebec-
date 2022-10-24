@@ -59,3 +59,22 @@
     <scope>runtime</scope>
   </dependency>
   ````
+  **MÉTODO 5**
+  - Usando o **JWT - JSON Web Token**
+  - Incluída a dependência
+   ````xml
+    <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt</artifactId>
+        <version>0.9.1</version>
+    </dependency>
+  ````
+  - Criamos um service do Usuário como método que cria um usuário c/ a senha criptografada para salvar no BD
+  - Criamos as classes:
+    - JWTObject
+    - JWTCreator
+    - JWTFilter
+    - SecurityConfig
+  - Criamos ainda as DTOs:
+    - Login e Sessao
+
